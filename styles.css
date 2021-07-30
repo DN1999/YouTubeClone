@@ -1,0 +1,147 @@
+@   import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+}
+
+        /* header style */
+ .material-icons{
+     color: rgb(221, 99, 130);
+
+ }
+
+ .header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 70px;
+     padding: 15px;
+ }
+
+ .header_left{
+     display: flex;
+     align-items: center;
+ }
+
+ .header_left img{
+     width : 100px;
+     margin-left: 15px;
+ }
+
+ .header i{
+     padding: 0px 7px;
+     cursor: pointer;
+ }
+
+ .header_search form{
+     border: 1px solid #ddd;
+    height: 35px;
+    margin :0%;
+    padding:0;
+    display:flex;
+    }
+
+.header_search input{
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 20%;
+    border:red;
+    /* outline:none; */
+}
+
+.header_search button{
+padding: 0;
+margin: 0;
+height: 100%;
+border:steelblue;
+border-radius: 20%;
+/* outline:none; */
+}
+
+/* MainBody Style  */
+.mainBody{
+    height: calc(100vh - 70px);
+    display: flex;
+    overflow: hidden;
+}
+/* slide bar  */
+.slidebar{
+    height: 100%;
+    width: 230px;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.slidebar_categories{
+    width :100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top:15px;
+}
+
+.slidebar_category{
+    display: flex;
+    align-items:center;
+    padding:12px 25px;
+
+}
+
+.slidebar_category span{
+    margin-left: 25px; 
+}
+
+.slidebar_category:hover{
+    background: #ddd;
+    cursor:pointer;
+}
+
+.slidebar::-webkit-scrollbar{
+    display: none;
+}
+hr{
+    height: 1px;
+    background-color: #ddd;
+    border: none;
+}
+/* videos */
+
+.row{
+    background-color: #ddd;
+    width: 83%;
+    height:100%;
+    padding: 15px 15px;
+    border-top: 10px solid rgba(190, 180, 182, 0.867);
+    overflow-y: scroll;
+    padding-right: 0px; 
+}
+
+#videos {
+    width: 100%;
+        margin-right:0px ;
+        margin-bottom : 30px;
+        margin-left: 0%;
+        display: -ms-flexbox;
+        flex-direction: row;
+        /* margin-inline: 7px;*/
+        padding-right: 0px;
+} 
+
+
+.col-md-12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 5%;
+   width: 95%;
+   height:100%;
+   margin: 8px;
+   
+}
